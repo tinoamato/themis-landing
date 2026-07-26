@@ -35,8 +35,7 @@ const HTML_BODY = `
       <a href="#precios">Precios</a>
     </nav>
     <div class="header-cta">
-      <a href="#" class="btn btn-ghost">Ingresar</a>
-      <a href="https://wa.me/5491131838472?text=Hola%2C%20me%20interesa%20solicitar%20una%20demo%20de%20Themis." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+      <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20interesa%20solicitar%20una%20demo%20de%20Themis." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
         Solicitar demo
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
@@ -79,15 +78,14 @@ const HTML_BODY = `
       </p>
 
       <p class="hero-body hero-dropcap">
-        Diseñado para estudios que facturan tiempo y no pueden permitirse perderlo. La plataforma sincroniza MEV y PJN cada 15 minutos, ordena vencimientos por urgencia real y genera reportes que sus clientes sí quieren leer. Todo desde un solo dashboard.
+        Diseñado para estudios que facturan tiempo y no pueden permitirse perderlo. La plataforma sincroniza MEV y PJN diariamente, ordena vencimientos por urgencia real y genera reportes que sus clientes sí quieren leer. Todo desde un solo dashboard.
       </p>
 
       <div class="hero-actions">
-        <a href="https://wa.me/5491131838472?text=Hola%2C%20vi%20la%20web%20de%20Themis%20y%20me%20gustar%C3%ADa%20solicitar%20una%20demo." target="_blank" rel="noopener noreferrer" class="btn btn-primary accent lg">
+        <a href="https://wa.me/5491144074979?text=Hola%2C%20vi%20la%20web%20de%20Themis%20y%20me%20gustar%C3%ADa%20solicitar%20una%20demo." target="_blank" rel="noopener noreferrer" class="btn btn-primary accent lg">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
           Solicitar demo por WhatsApp
         </a>
-        <a href="#" class="btn btn-ghost lg">Ver producto en vivo →</a>
       </div>
 
       <div class="hero-trust">
@@ -96,8 +94,8 @@ const HTML_BODY = `
           <span class="hero-trust-label">Prueba gratuita</span>
         </div>
         <div class="hero-trust-item">
-          <span class="hero-trust-value">24 h</span>
-          <span class="hero-trust-label">Setup completo</span>
+          <span class="hero-trust-value">Setup</span>
+          <span class="hero-trust-label">Fácil y asistido</span>
         </div>
         <div class="hero-trust-item">
           <span class="hero-trust-value">0</span>
@@ -223,25 +221,25 @@ const HTML_BODY = `
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Floating elements -->
-        <div class="float-alert">
-          <div class="fi">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          </div>
-          <div>
-            <div class="ft">Alerta resuelta</div>
-            <div class="fs">Exp. 4592/23 actualizado — nueva providencia anexada al dashboard.</div>
-            <div class="fm">Hace 2 min</div>
-          </div>
+      <!-- Floating elements -->
+      <div class="float-alert">
+        <div class="fi">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
         </div>
-        <div class="float-cal">
-          <div class="fc-h">Hoy · 22·abr</div>
-          <div class="fc-b">
-            <div class="fc-row"><span class="t">09:00</span><span class="l">Audiencia</span><span class="pill" style="background:var(--burgundy)"></span></div>
-            <div class="fc-row"><span class="t">11:30</span><span class="l">Pericia</span><span class="pill" style="background:var(--teal)"></span></div>
-            <div class="fc-row"><span class="t">16:00</span><span class="l">Vence Exp. 891/24</span><span class="pill" style="background:var(--copper)"></span></div>
-          </div>
+        <div>
+          <div class="ft">Alerta resuelta</div>
+          <div class="fs">Exp. 4592/23 actualizado — nueva providencia anexada al dashboard.</div>
+          <div class="fm">Hace 2 min</div>
+        </div>
+      </div>
+      <div class="float-cal">
+        <div class="fc-h">Hoy · 22·abr</div>
+        <div class="fc-b">
+          <div class="fc-row"><span class="t">09:00</span><span class="l">Audiencia</span><span class="pill" style="background:var(--burgundy)"></span></div>
+          <div class="fc-row"><span class="t">11:30</span><span class="l">Pericia</span><span class="pill" style="background:var(--teal)"></span></div>
+          <div class="fc-row"><span class="t">16:00</span><span class="l">Vence Exp. 891/24</span><span class="pill" style="background:var(--copper)"></span></div>
         </div>
       </div>
     </div>
@@ -251,27 +249,11 @@ const HTML_BODY = `
 <!-- TRUSTED -->
 <section class="band">
   <div class="trusted">
-    <div class="trusted-l">Estudios jurídicos que ya confían en Themis</div>
+    <div class="trusted-l">Estudio jurídico que ya confía en Themis</div>
     <div class="trusted-logos">
       <div class="logo-chip">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
         Álvarez & Asoc.
-      </div>
-      <div class="logo-chip">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="14" rx="1"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg>
-        Moreno Legal
-      </div>
-      <div class="logo-chip">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
-        Estudio Salas
-      </div>
-      <div class="logo-chip">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2L2 7v6c0 5 4 8 10 9 6-1 10-4 10-9V7l-10-5z"/></svg>
-        Defensa Ríos
-      </div>
-      <div class="logo-chip">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9l6-6 6 6M4 22h16M6 18V9M18 18V9M10 22V14h4v8"/></svg>
-        Figueroa Abogados
       </div>
     </div>
   </div>
@@ -478,7 +460,7 @@ const HTML_BODY = `
         <span class="pcard-kicker">MEV Automático</span>
       </div>
       <div class="pcard-header">
-        <h3 class="pcard-title">MEV sincronizado <em>cada 15 minutos</em></h3>
+        <h3 class="pcard-title">MEV sincronizado <em>cada 1 día</em></h3>
         <p class="pcard-desc">Seguimiento automático de expedientes. Sin abrir el portal MEV nunca más.</p>
       </div>
       <div class="pcard-canvas">
@@ -513,7 +495,7 @@ const HTML_BODY = `
               </div>
             </div>
           </div>
-          <div style="margin-top:10px;font-family:var(--font-mono);font-size:9px;color:var(--pewter);text-align:center;letter-spacing:.06em">↻ Próxima sincronización en 8 min</div>
+          <div style="margin-top:10px;font-family:var(--font-mono);font-size:9px;color:var(--pewter);text-align:center;letter-spacing:.06em">↻ Sincronización diaria activa</div>
         </div>
       </div>
     </div>
@@ -595,8 +577,8 @@ const HTML_BODY = `
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.8"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
               </div>
               <div style="flex:1;min-width:0">
-                <div style="font-size:12px;font-weight:600;color:var(--obsidian)">Valentino Amato</div>
-                <div style="font-size:10px;color:var(--pewter)">asdasd@gmail.com · 123123</div>
+                <div style="font-size:12px;font-weight:600;color:var(--obsidian)">Carlos Pérez</div>
+                <div style="font-size:10px;color:var(--pewter)">carlos.perez@email.com · +54 9 11 5824-9182</div>
               </div>
               <span class="badge ok" style="font-size:8px;white-space:nowrap">CLIENTE</span>
             </div>
@@ -620,14 +602,15 @@ const HTML_BODY = `
     </div>
 
   </div>
-</section>ULTAS (PROBLEM→SOLUTION) -->
+</section>
+<!-- CONSULTAS (PROBLEM→SOLUTION) -->
 <section class="consults" id="consultas">
   <div class="sec-head">
     <div class="sec-num">03<span class="sec-num-sub">Capítulo</span></div>
     <div>
       <h2 class="sec-title">Consultas al <em>estudio</em></h2>
       <p class="sec-sub">
-        Seis preguntas que seguramente se hizo esta semana. Themis las responde con procesos, no con promesas.
+        Cinco preguntas que seguramente se hizo esta semana. Themis las responde con procesos, no con promesas.
       </p>
     </div>
   </div>
@@ -638,9 +621,9 @@ const HTML_BODY = `
       <div class="consult-q"><span class="cquo">“</span>¿Pierdo horas revisando el MEV expediente por expediente, cada mañana?”</div>
       <div class="consult-a">
         <span class="consult-kicker">Monitoreo automático</span>
-        <div class="consult-title">Themis sincroniza MEV y PJN cada 15 minutos.</div>
-        <p class="consult-desc">Reciba alertas instantáneas ante cada movimiento, resolución o nueva providencia. No abra un portal judicial nunca más.</p>
-        <div class="consult-tags"><span class="tag">MEV</span><span class="tag">PJN</span><span class="tag">Alertas push</span></div>
+        <div class="consult-title">Themis sincroniza MEV y PJN una vez al día.</div>
+        <p class="consult-desc">Vea las actualizaciones de cada movimiento, resolución o nueva providencia consolidadas en su panel. No abra un portal judicial nunca más.</p>
+        <div class="consult-tags"><span class="tag">MEV</span><span class="tag">PJN</span><span class="tag">Alertas en panel</span></div>
       </div>
     </div>
 
@@ -650,8 +633,8 @@ const HTML_BODY = `
       <div class="consult-a">
         <span class="consult-kicker">Agenda inteligente</span>
         <div class="consult-title">Vencimientos priorizados por urgencia real.</div>
-        <p class="consult-desc">Calendario unificado con plazos, audiencias y tareas de procuración. Recordatorios escalonados: 7 días, 48 h, 6 h y notificación crítica.</p>
-        <div class="consult-tags"><span class="tag">Agenda</span><span class="tag">Vencimientos</span><span class="tag">Recordatorios</span></div>
+        <p class="consult-desc">Calendario unificado con plazos, audiencias y tareas de procuración. Vea los próximos compromisos y vencimientos del día en un solo lugar.</p>
+        <div class="consult-tags"><span class="tag">Agenda</span><span class="tag">Vencimientos</span></div>
       </div>
     </div>
 
@@ -661,40 +644,29 @@ const HTML_BODY = `
       <div class="consult-a">
         <span class="consult-kicker">Dashboard único</span>
         <div class="consult-title">Todo centralizado, todo buscable.</div>
-        <p class="consult-desc">Expedientes, movimientos, escritos, contactos, juzgados y entidades — en tiempo real desde cualquier dispositivo. Búsqueda universal en &lt; 200 ms.</p>
+        <p class="consult-desc">Expedientes, movimientos, escritos, contactos, juzgados y entidades — desde cualquier dispositivo con búsqueda universal integrada.</p>
         <div class="consult-tags"><span class="tag">Dashboard</span><span class="tag">Multi-dispositivo</span><span class="tag">Búsqueda</span></div>
       </div>
     </div>
 
     <div class="consult">
       <div class="consult-n">IV</div>
-      <div class="consult-q"><span class="cquo">“</span>¿Cómo le explico a mi cliente cómo va su causa — sin prepararle un informe a mano?”</div>
-      <div class="consult-a">
-        <span class="consult-kicker">Reportes en un click</span>
-        <div class="consult-title">PDFs profesionales — con su marca — listos para enviar.</div>
-        <p class="consult-desc">Reporte por expediente con estado, movimientos, próximos pasos y honorarios devengados. Envío directo por email desde la plataforma.</p>
-        <div class="consult-tags"><span class="tag">Reportes PDF</span><span class="tag">White-label</span><span class="tag">Email</span></div>
-      </div>
-    </div>
-
-    <div class="consult">
-      <div class="consult-n">V</div>
       <div class="consult-q"><span class="cquo">“</span>¿Cuánto le debe cada cliente — y cuánto facturé este mes?”</div>
       <div class="consult-a">
         <span class="consult-kicker">Finanzas por expediente</span>
-        <div class="consult-title">Honorarios, gastos y pagos en un solo tablero.</div>
-        <p class="consult-desc">Registre honorarios acordados, adelantos, gastos causídicos y saldos. Vistas cruzadas por cliente, por causa y por período fiscal.</p>
+        <div class="consult-title">Módulo para gestionar finanzas.</div>
+        <p class="consult-desc">Registre honorarios acordados, adelantos, gastos causídicos y saldos de manera organizada.</p>
         <div class="consult-tags"><span class="tag">Honorarios</span><span class="tag">Cuenta corriente</span><span class="tag">Facturación</span></div>
       </div>
     </div>
 
     <div class="consult">
-      <div class="consult-n">VI</div>
+      <div class="consult-n">V</div>
       <div class="consult-q"><span class="cquo">“</span>¿Cómo controlo lo que hacen los procuradores en el terreno?”</div>
       <div class="consult-a">
         <span class="consult-kicker">Trazabilidad total</span>
         <div class="consult-title">Cada diligencia queda documentada, con devolución.</div>
-        <p class="consult-desc">Asigne tareas con contexto completo del expediente. Seguimiento en tiempo real, adjuntos, ubicación y confirmación de resolución.</p>
+        <p class="consult-desc">Asigne tareas con contexto completo del expediente. Seguimiento en tiempo real, ubicación y confirmación de resolución.</p>
         <div class="consult-tags"><span class="tag">Procuración</span><span class="tag">Tareas</span><span class="tag">Trazabilidad</span></div>
       </div>
     </div>
@@ -717,12 +689,12 @@ const HTML_BODY = `
     <div class="test-body">
       <div class="test-kicker">Entrevista · Buenos Aires · 2026</div>
       <blockquote class="test-quote">
-        Antes perdíamos <em>media mañana</em> revisando el MEV expediente por expediente. Hoy Themis lo hace solo y nos avisa al instante. Desde que lo implementamos <em>no perdimos un solo plazo</em>.
+        Antes perdíamos <em>media mañana</em> revisando el MEV expediente por expediente. Hoy Themis unifica todo y nos muestra las novedades del día. Desde que lo implementamos <em>no perdimos un solo plazo</em>.
       </blockquote>
       <div class="test-attr">
-        <div class="test-avatar">RA</div>
+        <div class="test-avatar">CA</div>
         <div class="test-who">
-          <div class="n">Dr. Roberto Álvarez</div>
+          <div class="n">Dr. Carlos Álvarez</div>
           <div class="r">SOCIO FUNDADOR · ÁLVAREZ &amp; ASOCIADOS</div>
         </div>
       </div>
@@ -742,8 +714,8 @@ const HTML_BODY = `
         <span class="ts-l">Del equipo lo usa a diario</span>
       </div>
       <div class="ts-item">
-        <span class="ts-v teal">24 h</span>
-        <span class="ts-l">Onboarding completo del estudio</span>
+        <span class="ts-v teal">Rápido</span>
+        <span class="ts-l">Setup y onboarding asistido</span>
       </div>
     </div>
   </div>
@@ -787,93 +759,11 @@ const HTML_BODY = `
   <div class="sec-head">
     <div class="sec-num">05<span class="sec-num-sub">Capítulo</span></div>
     <div>
-      <h2 class="sec-title">Planes para su <em>crecimiento</em></h2>
+      <h2 class="sec-title">Un plan a la medida de su <em>estudio</em></h2>
       <p class="sec-sub">
-        Elija el plan que mejor se adapte al volumen de su estudio. Sin costos ocultos, sin sorpresas. Cambio de plan en cualquier momento.
+        Diseñamos una propuesta personalizada según las necesidades y el tamaño de su firma.
       </p>
     </div>
-  </div>
-
-  <div style="display:flex;justify-content:center;margin-bottom:40px">
-    <div class="pricing-toggle">
-      <button class="pt-opt" data-period="monthly">Mensual</button>
-      <button class="pt-opt active" data-period="yearly">Anual <span class="save">−20%</span></button>
-    </div>
-  </div>
-
-  <div class="price-table">
-    <!-- HEADER ROW -->
-    <div class="pt-cell head">
-      <div style="font-family:var(--font-mono);font-size:10px;color:var(--pewter);letter-spacing:.12em;text-transform:uppercase">Planes</div>
-      <div style="font-family:var(--font-display);font-style:italic;font-size:18px;color:var(--pewter-dark)">Elija el suyo →</div>
-    </div>
-    <div class="pt-cell head">
-      <div class="pt-plan-name">Individual</div>
-      <div class="pt-plan-info">Abogados independientes</div>
-      <div class="pt-price"><span class="curr">US$</span><span class="amt" data-m="45" data-y="36">36</span><span class="per">/mes</span></div>
-    </div>
-    <div class="pt-cell head featured">
-      <div class="pt-plan-name">Firma</div>
-      <div class="pt-plan-info">Estudios en crecimiento</div>
-      <div class="pt-price"><span class="curr">US$</span><span class="amt" data-m="120" data-y="96">96</span><span class="per">/mes</span></div>
-    </div>
-    <div class="pt-cell head">
-      <div class="pt-plan-name">Corporativo</div>
-      <div class="pt-plan-info">Grandes despachos</div>
-      <div class="pt-price"><span class="curr">US$</span><span class="amt" data-m="290" data-y="232">232</span><span class="per">/mes</span></div>
-    </div>
-
-    <!-- ROWS -->
-    <div class="pt-cell rowlabel">Expedientes</div>
-    <div class="pt-cell">Hasta 100</div>
-    <div class="pt-cell">Ilimitados</div>
-    <div class="pt-cell">Ilimitados</div>
-
-    <div class="pt-cell rowlabel">Usuarios</div>
-    <div class="pt-cell">1</div>
-    <div class="pt-cell">Hasta 5</div>
-    <div class="pt-cell">Ilimitados</div>
-
-    <div class="pt-cell rowlabel">Monitoreo MEV/PJN</div>
-    <div class="pt-cell">Diario</div>
-    <div class="pt-cell">Tiempo real</div>
-    <div class="pt-cell">Tiempo real + API</div>
-
-    <div class="pt-cell rowlabel">Agenda y vencimientos</div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-
-    <div class="pt-cell rowlabel">Reportes PDF white-label</div>
-    <div class="pt-cell"><span class="pt-dash">—</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-
-    <div class="pt-cell rowlabel">Control de pericias y finanzas</div>
-    <div class="pt-cell"><span class="pt-dash">—</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-
-    <div class="pt-cell rowlabel">API para integraciones</div>
-    <div class="pt-cell"><span class="pt-dash">—</span></div>
-    <div class="pt-cell"><span class="pt-dash">—</span></div>
-    <div class="pt-cell"><span class="pt-check">●</span></div>
-
-    <div class="pt-cell rowlabel">Soporte</div>
-    <div class="pt-cell">Email · 48 h</div>
-    <div class="pt-cell">Chat · 8 h</div>
-    <div class="pt-cell">Prioritario 24/7</div>
-
-    <div class="pt-cell rowlabel">Onboarding</div>
-    <div class="pt-cell">Autoservicio</div>
-    <div class="pt-cell">Asistido · 24 h</div>
-    <div class="pt-cell">Personalizado</div>
-
-    <!-- CTA ROW -->
-    <div class="pt-cell footer rowlabel" style="background:var(--warm-white);font-family:var(--font-display);text-transform:none;letter-spacing:.02em;font-size:14px;font-style:italic;color:var(--pewter-dark)">Empiece hoy.</div>
-    <div class="pt-cell footer"><a href="https://wa.me/5491131838472?text=Hola%2C%20me%20interesa%20comenzar%20con%20el%20plan%20Starter%20de%20Themis." target="_blank" rel="noopener noreferrer" class="pt-cta out">Comenzar →</a></div>
-    <div class="pt-cell footer"><a href="https://wa.me/5491131838472?text=Hola%2C%20me%20interesa%20probar%20Themis%2014%20d%C3%ADas%20gratis%20con%20el%20plan%20Pro." target="_blank" rel="noopener noreferrer" class="pt-cta fill">Prueba 14 días →</a></div>
-    <div class="pt-cell footer"><a href="https://wa.me/5491131838472?text=Hola%2C%20me%20interesa%20el%20plan%20empresarial%20de%20Themis.%20%C2%BFPodr%C3%ADamos%20hablar%3F" target="_blank" rel="noopener noreferrer" class="pt-cta out">Contactar ventas →</a></div>
   </div>
 
   <!-- ENTERPRISE / TAILORED PLAN -->
@@ -895,23 +785,18 @@ const HTML_BODY = `
       </div>
     </div>
     <div class="ent-right">
-      <div class="ent-quote">
-        <div class="ent-q-l">Desde</div>
-        <div class="ent-q-v"><span class="curr">US$</span>490<span class="per">/mes</span></div>
-        <div class="ent-q-s">Cotización personalizada según necesidades</div>
-      </div>
-      <a href="https://wa.me/5491131838472?text=Hola%2C%20me%20interesa%20solicitar%20una%20cotizaci%C3%B3n%20para%20el%20plan%20Praetor%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta">
+      <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20interesa%20solicitar%20una%20cotizaci%C3%B3n%20para%20el%20plan%20Praetor%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         Solicitar cotización
       </a>
-      <a href="https://wa.me/5491131838472?text=Hola%2C%20quisiera%20agendar%20una%20llamada%20con%20el%20equipo%20de%20ventas%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta ghost">
+      <a href="https://wa.me/5491144074979?text=Hola%2C%20quisiera%20agendar%20una%20llamada%20con%20el%20equipo%20de%20ventas%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta ghost">
         Agendar llamada con ventas →
       </a>
     </div>
   </div>
 
   <p style="margin-top:24px;text-align:center;font-family:var(--font-mono);font-size:11px;color:var(--pewter);letter-spacing:.08em">
-    Todos los planes incluyen datos encriptados · Copias diarias · Sin permanencia · Cancele cuando quiera
+    Copias diarias · Sin permanencia · Cancele cuando quiera
   </p>
 </section>
 
@@ -922,16 +807,14 @@ const HTML_BODY = `
       <div class="cta-k">· Demo sin costo ·</div>
       <h2 class="cta-title">¿Listo para recuperar<br>su <em>mañana del lunes?</em></h2>
       <p class="cta-body">
-        Demo personalizada de 30 minutos. Configuración completa en 24 horas. Su estudio trabajando con Themis antes de que termine la semana.
+        Demo personalizada de 30 minutos. Configuración completa y rápida. Su estudio trabajando con Themis antes de que termine la semana.
       </p>
       <div class="cta-actions">
-        <a href="https://wa.me/5491131838472?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20personalizada%20de%20Themis." target="_blank" rel="noopener noreferrer" class="btn btn-primary ivory lg">
+        <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20demo%20personalizada%20de%20Themis." target="_blank" rel="noopener noreferrer" class="btn btn-primary ivory lg">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
           Solicitar demo
         </a>
-        <a href="https://wa.me/5491131838472?text=Hola%2C%20quisiera%20hablar%20con%20un%20asesor%20de%20Themis." target="_blank" rel="noopener noreferrer" class="btn btn-ghost dark lg">Hablar con asesor</a>
       </div>
-      <div class="cta-small">Sin tarjeta · Sin compromiso · Cancele cuando quiera</div>
     </div>
 
     <div class="cta-contact">
@@ -941,7 +824,7 @@ const HTML_BODY = `
         </div>
         <div>
           <div class="cc-l">WhatsApp</div>
-          <div class="cc-v">+54 9 11 3183-8472</div>
+          <div class="cc-v">+54 9 11 4407-4979</div>
           <div class="cc-s">Respuesta en menos de 30 minutos</div>
         </div>
       </div>
@@ -951,18 +834,8 @@ const HTML_BODY = `
         </div>
         <div>
           <div class="cc-l">Email comercial</div>
-          <div class="cc-v">hola@themis.legal</div>
+          <div class="cc-v">contacto@themis.legal</div>
           <div class="cc-s">Lun a Vie · 9 a 19 h</div>
-        </div>
-      </div>
-      <div class="cc-row">
-        <div class="cc-ic">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        </div>
-        <div>
-          <div class="cc-l">Oficina</div>
-          <div class="cc-v">Av. Callao 420, CABA</div>
-          <div class="cc-s">Con cita previa</div>
         </div>
       </div>
     </div>
@@ -993,38 +866,29 @@ const HTML_BODY = `
     </div>
     <div class="foot-col">
       <h4>Producto</h4>
-      <a href="#">Características</a>
-      <a href="#">Precios</a>
-      <a href="#">Integraciones</a>
-      <a href="#">Novedades</a>
+      <a href="#anatomy">Cómo funciona</a>
+      <a href="#consultas">Preguntas frecuentes</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#precios">Precios</a>
     </div>
     <div class="foot-col">
       <h4>Soporte</h4>
-      <a href="#">Documentación</a>
-      <a href="#">Estado del servicio</a>
-      <a href="https://wa.me/5491131838472?text=Hola%2C%20quisiera%20ponerme%20en%20contacto%20con%20el%20equipo%20de%20Themis." target="_blank" rel="noopener noreferrer">Contacto</a>
-      <a href="https://wa.me/5491131838472?text=Hola%2C%20me%20comunico%20desde%20la%20web%20de%20Themis." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://wa.me/5491144074979?text=Hola%2C%20quisiera%20ponerme%20en%20contacto%20con%20el%20equipo%20de%20Themis." target="_blank" rel="noopener noreferrer">Contacto</a>
+      <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20comunico%20desde%20la%20web%20de%20Themis." target="_blank" rel="noopener noreferrer">WhatsApp</a>
     </div>
     <div class="foot-col">
       <h4>Legal</h4>
       <a href="#">Privacidad</a>
       <a href="#">Términos</a>
-      <a href="#">Seguridad</a>
-      <a href="#">Cookies</a>
     </div>
   </div>
   <div class="foot-bottom">
     <div>© 2026 Themis · Buenos Aires, Argentina</div>
-    <div>
-      <a href="#">LinkedIn</a>
-      <a href="#">Instagram</a>
-      <a href="#">X</a>
-    </div>
   </div>
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/5491131838472?text=Hola%2C%20estoy%20viendo%20la%20web%20de%20Themis%20y%20tengo%20una%20consulta." target="_blank" rel="noopener noreferrer" class="wa">
+<a href="https://wa.me/5491144074979?text=Hola%2C%20estoy%20viendo%20la%20web%20de%20Themis%20y%20tengo%20una%20consulta." target="_blank" rel="noopener noreferrer" class="wa">
   <span class="wa-tip">¿En qué podemos ayudarle?</span>
   <span class="wa-btn">
     <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.84 12.84 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.002-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0 0 20.885 3.488"/></svg>
@@ -1144,19 +1008,7 @@ const INIT_SCRIPT = `
     });
   });
 
-  document.querySelectorAll('.pt-opt').forEach(function(b) {
-    b.addEventListener('click', function() {
-      document.querySelectorAll('.pt-opt').forEach(function(x) { x.classList.remove('active'); });
-      b.classList.add('active');
-      var per = b.dataset.period;
-      document.querySelectorAll('.pt-price .amt').forEach(function(a) {
-        a.textContent = per === 'monthly' ? a.dataset.m : a.dataset.y;
-      });
-      document.querySelectorAll('.pt-price .per').forEach(function(p) {
-        p.textContent = per === 'monthly' ? '/mes' : '/mes anual';
-      });
-    });
-  });
+
 })();
 `;
 
