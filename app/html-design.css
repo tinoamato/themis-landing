@@ -1068,7 +1068,6 @@ section.band{
   gap:64px;
   align-items:flex-start;
   padding:48px 0;
-  border-top:2px solid var(--obsidian);
   border-bottom:1px solid var(--smoke);
 }
 .test-body{position:relative}
@@ -1153,7 +1152,7 @@ section.band{
 .mini-r{font-family:var(--font-mono);font-size:9.5px;color:var(--pewter);letter-spacing:.06em;margin-top:1px}
 
 /* ───────────────────── PRICING TABLE ───────────────────── */
-.pricing{padding:100px 32px;max-width:1440px;margin:0 auto}
+.pricing{padding:100px 32px 32px;max-width:1440px;margin:0 auto}
 .pricing-toggle{
   display:inline-flex;background:var(--paper);padding:4px;border-radius:100px;
   border:1px solid var(--smoke);margin-bottom:32px;
@@ -1242,7 +1241,7 @@ section.band{
 
 /* ───────────────────── CTA FINAL ───────────────────── */
 .cta-final{
-  padding:120px 32px;max-width:1440px;margin:0 auto;
+  padding:32px 32px 120px;max-width:1440px;margin:0 auto;
   position:relative;
 }
 .cta-inner{

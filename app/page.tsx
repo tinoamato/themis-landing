@@ -955,8 +955,16 @@ const INIT_SCRIPT = `
   function applyState() {
     document.documentElement.style.setProperty('--accent', state.accent);
     var map = {compact:'64px', normal:'100px', loose:'140px'};
-    document.querySelectorAll('.anatomy,.consults,.testimonial-wrap,.pricing,.cta-final').forEach(function(el) {
+    document.querySelectorAll('.anatomy,.consults,.testimonial-wrap').forEach(function(el) {
       el.style.paddingTop = map[state.density];
+      el.style.paddingBottom = map[state.density];
+    });
+    document.querySelectorAll('.pricing').forEach(function(el) {
+      el.style.paddingTop = map[state.density];
+      el.style.paddingBottom = '32px';
+    });
+    document.querySelectorAll('.cta-final').forEach(function(el) {
+      el.style.paddingTop = '32px';
       el.style.paddingBottom = map[state.density];
     });
     if (state.hero === 'classic') {
