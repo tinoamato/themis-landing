@@ -878,8 +878,8 @@ const HTML_BODY = `
     </div>
     <div class="foot-col">
       <h4>Legal</h4>
-      <a href="#">Privacidad</a>
-      <a href="#">Términos</a>
+      <a href="/privacidad">Privacidad</a>
+      <a href="/terminos">Términos</a>
     </div>
   </div>
   <div class="foot-bottom">
