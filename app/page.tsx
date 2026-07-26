@@ -274,7 +274,7 @@ const HTML_BODY = `
   <div class="product-grid">
 
     <!-- Card 1: Expedientes -->
-    <div class="pcard" style="border-left:2px solid var(--burgundy)">
+    <div class="pcard">
       <div class="pcard-meta">
         <span class="pcard-num">2.1</span>
         <span class="pcard-kicker">Expedientes</span>
