@@ -1056,7 +1056,10 @@ section.band{
 /* ───────────────────── TESTIMONIO EDITORIAL ───────────────────── */
 .testimonial-wrap{
   padding:120px 32px;max-width:1440px;margin:0 auto;
-  display:grid;grid-template-columns:1fr;gap:64px;
+  display:grid;grid-template-columns:1fr;gap:32px;
+}
+.testimonial-wrap .sec-head{
+  margin-bottom:0;
 }
 .testimonial{
   display:grid;
