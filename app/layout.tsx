@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'Themis',
     images: [
       {
-        url: 'https://themis.com.ar/og-image.png',
+        url: 'https://themis.com.ar/og-image.png?v=2',
         width: 1200,
         height: 630,
         alt: 'Themis — Gestión Procesal Inteligente',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Themis — El orden que su estudio merece',
     description: 'La plataforma de gestión procesal premium para estudios jurídicos en Argentina. Automatice el monitoreo de expedientes (PJN y MEV), anticipe plazos y controle su agenda.',
-    images: ['https://themis.com.ar/og-image.png'],
+    images: ['https://themis.com.ar/og-image.png?v=2'],
   },
 };
 
