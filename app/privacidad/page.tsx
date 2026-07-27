@@ -1,7 +1,18 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import "../html-design.css";
+
+export const metadata: Metadata = {
+  title: 'Política de Privacidad | Themis — Gestión Procesal',
+  description: 'Conozca la política de privacidad de Themis. Detalle sobre el tratamiento, seguridad y protección de los datos de su estudio jurídico bajo la Ley N° 25.326 de Protección de Datos Personales en Argentina.',
+  alternates: {
+    canonical: 'https://themis.com.ar/privacidad',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Privacidad() {
   return (

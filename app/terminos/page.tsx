@@ -1,7 +1,18 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import "../html-design.css";
+
+export const metadata: Metadata = {
+  title: 'Términos y Condiciones | Themis — Gestión Procesal',
+  description: 'Términos y condiciones de uso de la plataforma Themis. Información sobre el servicio de monitoreo procesal automático, agenda y exención de responsabilidades en la República Argentina.',
+  alternates: {
+    canonical: 'https://themis.com.ar/terminos',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Terminos() {
   return (

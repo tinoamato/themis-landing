@@ -1,0 +1,24 @@
+# Themis - Gestión Procesal Premium para la República Argentina
+
+Themis es una plataforma SaaS de gestión judicial y automatización procesal diseñada específicamente para el mercado legal en Argentina.
+
+## Para Quién Es
+- **Público Objetivo:** Abogados matriculados, procuradores y estudios jurídicos de la República Argentina (individuales o grandes firmas corporativas).
+- **Alcance Jurisdiccional:** Fuero Federal y Provincial. Integra y consolida el seguimiento de expedientes del Poder Judicial de la Nación (PJN) y las diferentes Mesas de Entrada Virtuales (MEV) locales.
+
+## Características Clave (Features)
+- **Monitoreo Automático Diario:** Themis se conecta de forma automatizada a los portales de MEV y PJN una vez al día para recolectar y reportar todas las novedades, notificaciones, escritos y providencias de cada expediente registrado en el panel. Evita la necesidad de ingresar manualmente a múltiples portales judiciales cada mañana.
+- **Agenda Procesal Inteligente:** Calendario unificado y automatizado que agrupa y ordena vencimientos, audiencias y plazos de procuración, ordenándolos por su nivel de urgencia real.
+- **Trazabilidad de Procuración:** Módulo colaborativo para delegar y registrar tareas de procuración (diligencias físicas ante juzgados) con seguimiento en tiempo real, asignación de responsables y carga de devoluciones.
+- **Finanzas por Expediente:** Control básico de la cuenta corriente de los expedientes, permitiendo registrar honorarios profesionales pactados, adelantos, gastos causídicos y saldos pendientes.
+- **Búsqueda Universal y Multi-dispositivo:** Acceso seguro desde computadoras, tablets o celulares con una barra de búsqueda rápida para localizar carátulas, juzgados, clientes y peritos en segundos.
+
+## Modelo de Precios
+- **Prueba Gratuita:** 14 días de prueba completa y sin costo, con setup inicial y onboarding de equipo 100% asistido y guiado.
+- **Planes a Medida (Plan Praetor):** Propuestas comerciales diseñadas a medida según el tamaño del estudio jurídico y el número de abogados (especialmente orientado a firmas de más de 20 abogados). Incluye integraciones personalizadas con sistemas de gestión interna (ERP, CRM), servidores dedicados con acuerdos de nivel de servicio (SLA) exclusivos, capacitación in-situ de todo el equipo y un gerente de cuenta asignado.
+
+## Contacto Oficial
+- **Sitio Web Principal:** https://themis.com.ar
+- **WhatsApp de Ventas / Solicitud de Demos:** +54 9 11 4407-4979 (Respuestas en menos de 30 minutos de Lunes a Viernes de 9 a 19 h)
+- **Correo Electrónico Comercial:** contacto@themis.com.ar
+- **Ubicación:** Buenos Aires, Argentina

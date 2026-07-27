@@ -28,9 +28,10 @@
   --pewter-dark:#52526E;
   --silver:#B8B8D1;
 
-  --font-display:'Cormorant Garamond', Georgia, serif;
-  --font-sans:'Outfit', system-ui, sans-serif;
-  --font-mono:'JetBrains Mono', ui-monospace, monospace;
+  /* Let next/font/google in layout.tsx define these variables */
+  /* --font-display:'Cormorant Garamond', Georgia, serif; */
+  /* --font-sans:'Outfit', system-ui, sans-serif; */
+  /* --font-mono:'JetBrains Mono', ui-monospace, monospace; */
 
   --density:1;
   --accent:#7A2D3A;
