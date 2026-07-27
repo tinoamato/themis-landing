@@ -89,7 +89,7 @@ export default function Privacidad() {
             5. Derechos de Acceso, Rectificación y Supresión (ARCO)
           </h2>
           <p>
-            De conformidad con la Ley N° 25.326, los usuarios tienen derecho a solicitar el acceso, actualización, rectificación o eliminación de sus datos personales almacenados en nuestras bases de datos. Para ejercer estos derechos, puede comunicarse directamente con nosotros enviando un correo electrónico a <a href="mailto:contacto@themis.legal" style={{ color: "var(--burgundy)", textDecoration: "underline" }}>contacto@themis.legal</a>.
+            De conformidad con la Ley N° 25.326, los usuarios tienen derecho a solicitar el acceso, actualización, rectificación o eliminación de sus datos personales almacenados en nuestras bases de datos. Para ejercer estos derechos, puede comunicarse directamente con nosotros enviando un correo electrónico a <a href="mailto:contacto@themis.com.ar" style={{ color: "var(--burgundy)", textDecoration: "underline" }}>contacto@themis.com.ar</a>.
           </p>
 
           <h2 style={{ fontFamily: "var(--font-display)", fontSize: "24px", fontWeight: 400, color: "var(--obsidian)", marginTop: "16px" }}>

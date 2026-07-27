@@ -1299,6 +1299,8 @@ section.band{
 }
 .cc-l{font-family:var(--font-mono);font-size:10px;color:var(--pewter);letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
 .cc-v{font-size:14px;color:var(--ivory);font-weight:500}
+a.cc-v{text-decoration:none;transition:opacity .15s ease}
+a.cc-v:hover{text-decoration:underline;opacity:.8}
 .cc-s{font-size:12px;color:var(--silver);margin-top:2px}
 .btn-primary.ivory{background:var(--ivory);color:var(--obsidian)}
 .btn-primary.ivory:hover{background:var(--warm-white)}

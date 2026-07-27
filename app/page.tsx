@@ -111,7 +111,7 @@ const HTML_BODY = `
           <div class="dots"><i></i><i></i><i></i></div>
           <div class="url">
             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-            app.themis.legal/expedientes
+            app.themis.com.ar/expedientes
           </div>
         </div>
         <div class="browser-body">
@@ -767,31 +767,40 @@ const HTML_BODY = `
   </div>
 
   <!-- ENTERPRISE / TAILORED PLAN -->
-  <div class="enterprise-cta">
-    <div class="ent-left">
-      <div class="ent-badge">
-        <span class="ent-dot"></span>
-        Plan Praetor · A medida
-      </div>
-      <h3 class="ent-title">¿Necesita algo <em>diseñado para su estudio?</em></h3>
-      <p class="ent-desc">
-        Para firmas con más de 20 abogados, flujos específicos, integraciones con sistemas internos o requerimientos de compliance particulares. Diseñamos el plan con usted.
-      </p>
-      <div class="ent-feats">
-        <div class="ent-feat"><span class="ent-chk">●</span> Integraciones a medida (ERP, CRM, facturación)</div>
-        <div class="ent-feat"><span class="ent-chk">●</span> SLA dedicado y servidor aislado</div>
-        <div class="ent-feat"><span class="ent-chk">●</span> Onboarding in-situ y capacitación del equipo</div>
-        <div class="ent-feat"><span class="ent-chk">●</span> Gerente de cuenta asignado</div>
+  <div class="browser" style="margin-top: 32px;">
+    <div class="browser-chrome">
+      <div class="dots"><i></i><i></i><i></i></div>
+      <div class="url">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity: .6; margin-right: 4px;"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        themis.com.ar/planes/praetor
       </div>
     </div>
-    <div class="ent-right">
-      <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20interesa%20solicitar%20una%20cotizaci%C3%B3n%20para%20el%20plan%20Praetor%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        Solicitar cotización
-      </a>
-      <a href="https://wa.me/5491144074979?text=Hola%2C%20quisiera%20agendar%20una%20llamada%20con%20el%20equipo%20de%20ventas%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta ghost">
-        Agendar llamada con ventas →
-      </a>
+    <div class="enterprise-cta" style="margin-top: 0; border-radius: 0; border: none; background: transparent;">
+      <div class="ent-left">
+        <div class="ent-badge">
+          <span class="ent-dot"></span>
+          Plan Praetor · A medida
+        </div>
+        <h3 class="ent-title">¿Necesita algo <em>diseñado para su estudio?</em></h3>
+        <p class="ent-desc">
+          Para firmas con más de 20 abogados, flujos específicos, integraciones con sistemas internos o requerimientos de compliance particulares. Diseñamos el plan con usted.
+        </p>
+        <div class="ent-feats">
+          <div class="ent-feat"><span class="ent-chk">●</span> Integraciones a medida (ERP, CRM, facturación)</div>
+          <div class="ent-feat"><span class="ent-chk">●</span> SLA dedicado y servidor aislado</div>
+          <div class="ent-feat"><span class="ent-chk">●</span> Onboarding in-situ y capacitación del equipo</div>
+          <div class="ent-feat"><span class="ent-chk">●</span> Gerente de cuenta asignado</div>
+        </div>
+      </div>
+      <div class="ent-right">
+        <a href="https://wa.me/5491144074979?text=Hola%2C%20me%20interesa%20solicitar%20una%20cotizaci%C3%B3n%20para%20el%20plan%20Praetor%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Solicitar cotización
+        </a>
+        <a href="https://wa.me/5491144074979?text=Hola%2C%20quisiera%20agendar%20una%20llamada%20con%20el%20equipo%20de%20ventas%20de%20Themis." target="_blank" rel="noopener noreferrer" class="ent-cta ghost">
+          Agendar llamada con ventas →
+        </a>
+      </div>
     </div>
   </div>
 
@@ -834,7 +843,7 @@ const HTML_BODY = `
         </div>
         <div>
           <div class="cc-l">Email comercial</div>
-          <div class="cc-v">contacto@themis.legal</div>
+          <a href="mailto:contacto@themis.com.ar" class="cc-v">contacto@themis.com.ar</a>
           <div class="cc-s">Lun a Vie · 9 a 19 h</div>
         </div>
       </div>
