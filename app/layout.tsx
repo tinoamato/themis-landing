@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import { Outfit, Cormorant_Garamond, JetBrains_Mono } from 'next/font/google';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -58,10 +59,25 @@ export const metadata: Metadata = {
   },
 };
 
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="es" className={`${outfit.variable} ${cormorant.variable} ${jetbrains.variable}`}>
-      <body>{children}</body>
+      <body>
+        {GTM_ID && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
+        )}
+        {children}
+      </body>
+      {GTM_ID && <GoogleTagManager gtmId={GTM_ID} />}
     </html>
   );
 }
